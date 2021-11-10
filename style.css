@@ -1,11 +1,9 @@
-$color-one:#0097e6; //blue
-$color-two:#33d9b2; //green
-$color-three:#ff5252; //red
-$color-text1:#ffffff;
-$color-text2: #2c2c54;
+body {
+    text-align: center;
+}
 
 .navigation {
-    background:$color-one;
+    background:#0097e6;
     padding: 0 12px 0;
 }
 
@@ -23,7 +21,7 @@ $color-text2: #2c2c54;
 
 .navigation a {
     text-decoration: none;
-    color: $color-text1;
+    color:#ffffff;
 }
 
 .navigation a:hover {
